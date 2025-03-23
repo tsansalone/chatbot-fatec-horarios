@@ -46,3 +46,8 @@ Este é um chatbot desenvolvido em Python que utiliza a API da OpenAI para respo
    python chatbot.py
    ```
 8. O chatbot estará disponível em `http://localhost:80` no navegador.
+
+
+## Demonstração
+
+[![](https://markdown-videos-api.jorgenkh.no/vimeo/1068608825)](https://vimeo.com/1068608825/bc4924518b?share=copy)
