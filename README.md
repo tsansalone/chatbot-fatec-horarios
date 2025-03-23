@@ -18,11 +18,11 @@ Este é um chatbot desenvolvido em Python que utiliza a API da OpenAI para respo
 ### Passos para Execução
 1. Clone este repositório:
    ```sh
-   git clone https://github.com/seu-usuario/chatbot-fatec.git
+   git clone https://github.com/tsansalone/chatbot-fatec-horarios.git
    ```
 2. Acesse o diretório do projeto:
    ```sh
-   cd chatbot-fatec
+   cd chatbot-fatec-horarios
    ```
 3. Crie um ambiente virtual (opcional, mas recomendado):
 
