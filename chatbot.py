@@ -63,6 +63,8 @@ def collect_messages(_):
         summary_response = get_completion_from_messages(context)
         panels.append(pn.Row('**Assistente (Resumo):**', pn.pane.Markdown(summary_response, width=600)))
         nPerguntas = 0
+        context.clear()
+        context.append({'role': 'system', 'content': grade_data})
     return pn.Column(*panels)
 
 interactive_conversation = pn.bind(collect_messages, button_conversation)
